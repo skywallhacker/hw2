@@ -1,0 +1,82 @@
+body {
+  background: rgba(0, 0, 0, 0.93);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.register .container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.register .container a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+.register .container h1 {
+  color: white;
+  margin-bottom: 15px;
+}
+.register .container input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  min-height: 30px;
+  background: rgb(31, 31, 31);
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.register .container button {
+  width: 100%;
+  color: gray;
+  background: rgb(59, 59, 59);
+  min-height: 30px;
+  border: 0;
+  border-radius: 5px;
+}
+.register .container .href {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register .container .href a {
+  font-size: 10px;
+  margin-top: 20px;
+}
+.register .container .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register .container .image .elem {
+  max-width: 30px;
+  margin-top: 20px;
+}
+.register .container .share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.register .container .share a {
+  color: gray;
+}
+.register .container .share a:nth-child(2) {
+  color: blue;
+}
+.register .box {
+  background: rgb(31, 31, 31);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
